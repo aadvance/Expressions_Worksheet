@@ -8,9 +8,9 @@ peopleParty = 30;
 var pizzaSlice;
 pizzaSlice = 12;
 var pizzaOrdered;
-pizzaOrdered =4;
+pizzaOrdered =8;
 
 //List resulting variable determining how many slices per person
 var pizzaSlicePerson;
 pizzaSlicePerson = pizzaSlice * pizzaOrdered / peopleParty;
-console.log(pizzaSlicePerson)
+console.log("Each person ate " + pizzaSlicePerson + " slices of pizza at the party")
