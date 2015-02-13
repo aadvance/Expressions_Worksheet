@@ -6,12 +6,15 @@
 
 //List variables for number of people at party, how many slices per pizza, how many pizzas ordered
 var peopleParty;
-peopleParty = 10;
+peopleParty = 27;
 var pizzaSlice;
-pizzaSlice = 8;
+pizzaSlice = 12;
 var pizzaOrdered;
-pizzaOrdered =4;
+pizzaOrdered =5;
 
 //Adding extra slices for Sparky
 var sparkySlices = pizzaOrdered * pizzaSlice % peopleParty;
-console.log(sparkySlices);
+//console.log(sparkySlices);
+
+//Language for console print
+console.log("Sparky got " + sparkySlices + " slices of pizza");

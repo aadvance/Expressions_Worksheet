@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b667e4bd-bae9-43f4-aa5a-3fd95b77a50a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/script.js" afterPath="$PROJECT_DIR$/js/script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Slice of Pizza pt2/js/script.js" afterPath="$PROJECT_DIR$/../Slice of Pizza pt2/js/script.js" />
     </list>
     <ignored path="Discounts.iws" />
