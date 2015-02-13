@@ -5,10 +5,13 @@
  */
 
 //Creating variables for givens
-var priceOrig = "124.99";
-var discPercent = "25";
+var price = 125;
+var disc = 20;
 var item = "cell phone";
-var salesTax = "9";
+var tax = 10;
 
 //Variables as results
-var priceTax = priceOrig * Number(discPercent)
+var total = price - (price * disc / 100)
+//console.log(taxNo)
+var totalTax = price - (price * disc / 100) + (total * tax / 100)
+//console.log(totalTax)
