@@ -5,7 +5,10 @@
  */
 
 //Creating variables for givens
-var priceOrig = 124.99;
-var discPercent = 25;
+var priceOrig = "124.99";
+var discPercent = "25";
 var item = "cell phone";
-var salesTax = 9
+var salesTax = "9";
+
+//Variables as results
+var priceTax = priceOrig * Number(discPercent)

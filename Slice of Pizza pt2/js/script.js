@@ -13,3 +13,5 @@ var pizzaOrdered;
 pizzaOrdered =4;
 
 //Adding extra slices for Sparky
+var sparkySlices = pizzaOrdered * pizzaSlice % peopleParty;
+console.log(sparkySlices);
